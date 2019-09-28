@@ -5,11 +5,11 @@ const app = express()
 const Pusher = require('pusher')
 
 const pusher = new Pusher({
-    appId: 'APP_ID',
-    key: 'YOUR_KEY',
-    secret: 'YOUR_SECRET',
-    cluster: 'YOUR_CLUSTER',
-    encrypted: true
+    appId: '870508',
+  key: 'c7820d2cb5ef34203f0f',
+  secret: 'ed673fd4992c202a5800',
+  cluster: 'ap1',
+  encrypted: true
 })
 
 app.use(bodyParser.json())
